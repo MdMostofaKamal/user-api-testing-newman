@@ -1,7 +1,6 @@
 const newman = require('newman');
 newman.run({
-collection: require('./Mostofa.postman_collection.json'),
-//environment: require('./collection/customer_api_env.json'), 
+collection: require('./Mostofa.postman_collection.json'), 
 iterationCount: 1,
 reporters: 'htmlextra',
 reporter: {
